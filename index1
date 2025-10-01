@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Replica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">facebook</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Friends</a>
+            <a href="#">Messages</a>
+            <a href="#">Notifications</a>
+            <a href="#">Profile</a>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="mobile-nav">
+            <a href="#">Home</a>
+            <a href="#">Friends</a>
+            <a href="#">Messages</a>
+            <a href="#">Notifications</a>
+            <a href="#">Profile</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Facebook</h1>
+        <p>Connect with friends and the world around you.</p>
+    </section>
+
+    <main class="grid-container">
+        <aside class="sidebar">
+            <h2>Shortcuts</h2>
+            <ul>
+                <li>Groups</li>
+                <li>Marketplace</li>
+                <li>Watch</li>
+                <li>Memories</li>
+            </ul>
+        </aside>
+
+        <section class="feed">
+            <article class="post">
+                <h3>John Doe</h3>
+                <p>Enjoying the beautiful day at the beach! 🌊☀️</p>
+                <img src="https://via.placeholder.com/500x250" alt="Post image">
+            </article>
+
+            <article class="post">
+                <h3>Mary Jane</h3>
+                <p>New recipe alert 🍝 — Who wants some?</p>
+                <img src="https://via.placeholder.com/500x250" alt="Food post">
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Sponsored</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Ad 1">
+            <img src="https://via.placeholder.com/200x150" alt="Ad 2">
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Facebook Replica. All rights reserved.</p>
+    </footer>
+</body>
+</html>
