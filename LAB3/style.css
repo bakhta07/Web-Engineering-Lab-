@@ -1,0 +1,153 @@
+/* General */
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(45deg, #ff758c, #ff7eb3, #ff9966);
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffe4e1 !important;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #ff9966);
+  color: #fff;
+}
+#hero h1 span {
+  color: #ffe4e1;
+}
+#hero .btn {
+  background-color: #fff;
+  color: #ff758c;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+#hero .btn:hover {
+  background-color: #ff9966;
+  color: #fff;
+}
+
+/* About Section */
+#about img {
+  max-width: 250px;
+  border: 6px solid #fff;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+#about h2 {
+  color: #ff758c;
+}
+.skills-icons i {
+  font-size: 2rem;
+  margin: 0 12px;
+  transition: transform 0.3s, color 0.3s;
+  color: #ff9966;
+}
+.skills-icons i:hover {
+  transform: scale(1.2);
+  color: #ff758c;
+}
+
+/* Projects Section */
+#projects {
+  background: #fff5f7;
+}
+#projects h2 {
+  color: #ff758c;
+}
+.card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.card .btn-outline-primary {
+  border-color: #ff758c;
+  color: #ff758c;
+}
+.card .btn-outline-primary:hover {
+  background: linear-gradient(45deg, #ff758c, #ff9966);
+  color: #fff;
+  border: none;
+}
+
+/* Contact Section */
+#contact h2 {
+  color: #ff758c;
+}
+#contact form .form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+#contact form .form-control:focus {
+  border-color: #ff758c;
+  box-shadow: 0px 0px 6px rgba(255, 117, 140, 0.4);
+}
+#contact button {
+  background: linear-gradient(45deg, #ff758c, #ff9966);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+#contact button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(45deg, #ff758c, #ff9966);
+  color: #fff;
+  font-size: 0.9rem;
+}
+footer i {
+  transition: color 0.3s;
+}
+footer i:hover {
+  color: #ffe4e1;
+}
+/* Gradient background */
+.hero {
+  background: linear-gradient(45deg, #ff7eb9, #ff6a00);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Readable Text Effect */
+.text-readable {
+  color: #fff;
+  -webkit-text-stroke: 1px #000;  /* black border */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* shadow */
+}
+
+/* Button adjustments */
+.hero .btn {
+  margin: 10px;
+}

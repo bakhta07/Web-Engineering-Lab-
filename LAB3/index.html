@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1 class="text-readable">My Portfolio</h1>
+    <p class="text-readable">Creative Developer & Designer</p>
+    <button class="btn btn-light">Contact Me</button>
+    <button class="btn btn-outline-light">Projects</button>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container" data-aos="fade-right">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="WhatsApp Image 2025-10-04 at 8.03.55 PM.jpeg" class="img-fluid rounded-circle shadow" alt="Profile">
+        </div>
+        <div class="col-md-8">
+          <h2>About Me</h2>
+          <p>A motivated software developer with hands-on experience in web technologies and problem-solving. I specialize in building responsive websites using HTML, CSS, JavaScript, and Bootstrap. I am eager to apply my skills to real-world projects and continuously learn new technologies to stay ahead in the tech industry.</p>
+          <h5>Skills</h5>
+          <p class="skills-icons">
+            <i class="fa-brands fa-html5"></i> HTML 
+            <i class="fa-brands fa-css3-alt"></i> CSS 
+            <i class="fa-brands fa-bootstrap"></i> Bootstrap 
+            <i class="fa-brands fa-js"></i> JavaScript
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">My Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card shadow-sm">
+            <img src="facebook replica.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">Replica of facebook using only html and css.</p>
+              <a href="#" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card shadow-sm">
+            <img src="periodic table.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text">A cute periodic table with a touch of creativity using html only.</p>
+              <a href="#" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card shadow-sm">
+            <img src="motivationaljournal.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project Three</h5>
+              <p class="card-text">Motivational journal with personalized quotes and a feature to add 
+                daily entries that would be saved in your local memory.</p>
+              <a href="#" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">Send <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 My Portfolio | Made with <i class="fa fa-heart text-danger"></i></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
